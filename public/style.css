@@ -1,0 +1,21 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color: #5c5b5b;
+  color: white;
+}
+
+table,
+tr,
+th,
+td {
+  border-collapse: collapse;
+  border: 1px solid white;
+  padding: 0.25rem 0.5rem;
+}
+/*# sourceMappingURL=style.css.map */

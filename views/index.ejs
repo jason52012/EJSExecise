@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home Page</title>
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <h1>Simple Form</h1>
+    <form action="/response" method="GET">
+      <label for="fullname">FullName:</label>
+      <input type="text" name="fullname" id="fullname" />
+      <label for="age">Age:</label>
+      <input type="text" name="age" id="age" />
+      <button type="submit">Submit</button>
+    </form>
+    <br />
+    <br />
+    <table>
+      <tr>
+        <th>name</th>
+        <th>rating</th>
+      </tr>
+      <% arr.forEach(item =>{ %>
+      <tr>
+        <td><%= item.name %></td>
+        <td><%= item.rating %></td>
+      </tr>
+      <% });%>
+    </table>
+  </body>
+</html>
